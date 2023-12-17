@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    margin: 15px 0; /* Add vertical margin for spacing between lines */
+    padding: 20px; /* Increase padding for better readability */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 18px; /* Increase text size */
+    line-height: 1.5; /* Adjust line height for better spacing */
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 70%; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table, th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%; /* 100% chiều rộng của ô input */
+    box-sizing: border-box; /* Bao gồm cả padding và border trong chiều rộng và chiều cao */
+    border: none; /* Loại bỏ viền cho input */
+    outline: none; /* Loại bỏ đường viền màu xanh khi input được focus */
+    margin-left: 10px;
+}
+
+button {
+    background-color: #3461f3;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0040fe;
+}
+
+#columns, #rows  {
+    background-color: rgb(227, 227, 227);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.input_row, .input_column {
+    display: inline-block;
+    width: 80px;
+}
+
+.createTable  {
+    margin-bottom: 20px;
+}
